@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/vrmPBI2WVuZCAyg9E7wPiECeQiQDCtCmpTb8MBg/7BB6ETDo1z3Ocxkx9CIsTc5/p4KCLqdNyQnbG7ad70t2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rrj14\\source\\repos\\WPFInteractiveGUI\\WPFInteractiveGUI\\WPFInteractiveGUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rrj14\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\rrj14\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\rrj14\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\rrj14\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

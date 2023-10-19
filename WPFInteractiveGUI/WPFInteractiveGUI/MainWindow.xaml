@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPFInteractiveGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFInteractiveGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="500">
+    <Grid>
+        <Label Name="PersonCountLabel" Content="Person Count: " HorizontalAlignment="Left" Margin="50,20,0,0" VerticalAlignment="Top" Height="29" Width="120"/>
+        <Label Name="IndexLabel" Content="Index: " HorizontalAlignment="Left" Margin="200,20,0,0" VerticalAlignment="Top" Height="29" Width="70"/>
+
+        <Label Content="_FirstName" Target="{Binding ElementName=FirstName}" HorizontalAlignment="Left" Margin="50,70,0,0" VerticalAlignment="Top" Height="29" Width="80"/>
+        <Label Content="_LastName" Target="{Binding ElementName=LastName}" HorizontalAlignment="Left" Margin="50,120,0,0" VerticalAlignment="Top" Height="29" Width="80"/>
+        <Label Content="_Age" Target="{Binding ElementName=Age}" HorizontalAlignment="Left" Margin="50,170,0,0" VerticalAlignment="Top" Height="29" Width="80"/>
+        <Label Content="_TelephoneNo" Target="{Binding ElementName=TelephoneNo}" HorizontalAlignment="Left" Margin="50,220,0,0" VerticalAlignment="Top" Height="29" Width="80"/>
+        
+        <TextBox Name="FirstName" TextChanged="FirstName_TextChanged" IsEnabled="False" HorizontalAlignment="Center" Margin="0,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="216" Height="20"/>
+        <TextBox Name="LastName" TextChanged="LastName_TextChanged" IsEnabled="False" HorizontalAlignment=   "Center" Margin="0,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="216" Height="20"/>
+        <TextBox Name="Age" TextChanged="Age_TextChanged" IsEnabled="False" HorizontalAlignment="Center" Margin="0,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="216" Height="20"/>
+        <TextBox Name="TelephoneNo" TextChanged="TelephoneNo_TextChanged" IsEnabled="False" HorizontalAlignment="Center" Margin="0,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="216" Height="20"/>
+        
+        <Button Name="NewPerson" Click="NewPerson_Click" Content="New Person" HorizontalAlignment="Left" Margin="400,70,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Name="DeletePerson" Click="DeletePerson_Click" IsEnabled="False" Content="Delete Person" HorizontalAlignment="Left" Margin="400,120,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Name="Up" Click="Up_Click" IsEnabled="False" Content="Up" HorizontalAlignment="Left" Margin="400,170,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Name="Down" Click="Down_Click" IsEnabled="False" Content="Down" HorizontalAlignment="Left" Margin="400,220,0,0" VerticalAlignment="Top" Width="80"/>
+        
+    </Grid>
+</Window>
