@@ -1,0 +1,14 @@
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\Ex31ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\Ex31ObserverPattern.AssemblyInfoInputs.cache
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\Ex31ObserverPattern.AssemblyInfo.cs
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\Ex31ObserverPattern.csproj.CoreCompileInputs.cache
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\bin\Debug\net7.0\Ex31ObserverPattern.exe
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\bin\Debug\net7.0\Ex31ObserverPattern.deps.json
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\bin\Debug\net7.0\Ex31ObserverPattern.runtimeconfig.json
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\bin\Debug\net7.0\Ex31ObserverPattern.dll
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\bin\Debug\net7.0\Ex31ObserverPattern.pdb
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\Ex31ObserverPattern.dll
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\refint\Ex31ObserverPattern.dll
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\Ex31ObserverPattern.pdb
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\Ex31ObserverPattern.genruntimeconfig.cache
+C:\Users\rrj14\source\repos\Ex31ObserverPattern\obj\Debug\net7.0\ref\Ex31ObserverPattern.dll

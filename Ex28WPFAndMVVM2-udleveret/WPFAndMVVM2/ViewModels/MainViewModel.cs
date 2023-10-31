@@ -5,6 +5,9 @@ using System.Text;
 using System.Linq;
 using System.Collections.ObjectModel;
 using WPFAndMVVM2.Models;
+using System.Windows;
+using System.Windows.Input;
+using WPFAndMVVM2.Commands;
 
 namespace WPFAndMVVM2.ViewModels 
 {
@@ -48,10 +51,20 @@ namespace WPFAndMVVM2.ViewModels
         }
         public void DeleteSelectedPerson()
         {
-            int selectedPersonIndex = PersonsVM.IndexOf(SelectedPerson);
-            PersonsVM.RemoveAt(selectedPersonIndex);
-            personRepo.Remove(selectedPersonIndex);
+            try
+            {
+                int selectedPersonIndex = PersonsVM.IndexOf(SelectedPerson);
+                PersonsVM.RemoveAt(selectedPersonIndex);
+                personRepo.Remove(selectedPersonIndex);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
+
+        public ICommand NewPersonCmd { get; set; } = new NewPersonCommand();
+        public ICommand DeletePersonCmd { get; set; } = new DeletePersonCommand();
 
 
         public event PropertyChangedEventHandler? PropertyChanged;

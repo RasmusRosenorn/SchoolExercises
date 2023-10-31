@@ -29,8 +29,8 @@
                 </ListBox.ItemTemplate>
             </ListBox>
             <StackPanel Orientation="Horizontal" Grid.Row="1">
-                <Button Name="btnNewPerson" Content="New" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20 0 0 0" Click="btnNewPerson_Click" />
-                <Button Name="btnDeletePerson" Content="Delete" Width="100" Height="25" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10 0 0 0" Click="btnDeletePerson_Click" />
+                <Button Name="btnNewPerson" Command="{Binding NewPersonCmd}" CommandParameter="{Binding}" Content="New" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <Button Name="btnDeletePerson" Command="{Binding DeletePersonCmd}"  CommandParameter="{Binding}" Content="Delete" Width="100" Height="25" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10 0 0 0"/>
             </StackPanel>
         </Grid>
 
